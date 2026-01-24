@@ -18,5 +18,5 @@
 &central_listener {
     status = "okay";
     device = <&trackball_central>;
-    input-processors = <&zip_temp_layer 4 10000>;
+    input-processors = <&zip_xy_scaler 2 1>;
 };
