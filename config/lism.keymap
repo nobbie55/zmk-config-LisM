@@ -127,7 +127,7 @@
 
        layer_4 {
             display-name = "Mouse Layer";
-            bindings = 
+            bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &mkp MB1  &trans  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
@@ -137,7 +137,7 @@
 
         layer_5 {
             display-name = "Scroll Layer";
-            bindings = 
+            bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
