@@ -32,11 +32,3 @@
             <&zip_scroll_scaler 1 16>;
     };
 };
-```
-
----
-
-**`config/lism_right.conf`（末尾に追加）：**
-```
-# Pointing
-CONFIG_ZMK_POINTING=y
