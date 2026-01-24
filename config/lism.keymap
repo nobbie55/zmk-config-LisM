@@ -136,7 +136,7 @@
 
         layer_4 {
             status = "reserved";
-            display-name = "Brank Layer";
+            display-name = "AutoMouseLayer";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &mkp MB1  &trans  &mkp MB2  &trans
