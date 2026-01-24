@@ -80,10 +80,10 @@
         default_layer {
             display-name = "Default Layer";
             bindings = <
-&kp Q                &kp W      &kp E                 &kp R     &kp T                                                        &kp Y        &kp U           &kp I        &kp O             &kp P
-&kp A                &kp S      &kp D                 &kp F     &kp G                                                        &kp H        &kp J           &kp K        &kp L             &kp MINUS
-&kp Z                &kp X      &kp C                 &kp V     &kp B                                                        &kp N        &kp M           &lt 4 COMMA  &kp DOT           &kp SLASH
-&mt LEFT_CONTROL F5  &kp RG(V)  &mt LEFT_SHIFT LANG2  &mkp MB4  &mt LEFT_COMMAND LANGUAGE_1  &lt 3 BACKSPACE    &lt 2 SPACE  &lt 1 ENTER  &kp LS(LG(N4))  &mkp MB3     &mt LEFT_ALT ESC  &to 2
+&kp Q                &kp W      &kp E                 &kp R     &kp T                                                      &kp Y        &kp U           &kp I        &kp O             &kp P
+&kp A                &kp S      &kp D                 &kp F     &kp G                                                      &kp H        &kp J           &kp K        &kp L             &kp MINUS
+&kp Z                &kp X      &kp C                 &kp V     &lt 3 B                                                    &kp N        &kp M           &lt 5 COMMA  &kp DOT           &kp SLASH
+&mt LEFT_CONTROL F5  &kp RG(V)  &mt LEFT_SHIFT LANG2  &mkp MB4  &mt LEFT_COMMAND LANGUAGE_1  &kp BACKSPACE    &lt 2 SPACE  &lt 1 ENTER  &kp LS(LG(N4))  &mkp MB3     &mt LEFT_ALT ESC  &to 2
             >;
 
             sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
@@ -125,7 +125,7 @@
             sensor-bindings = <&encoder_msc SCRL_RIGHT SCRL_LEFT>;
         };
 
-       layer_4 {
+        layer_4 {
             display-name = "Mouse Layer";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
