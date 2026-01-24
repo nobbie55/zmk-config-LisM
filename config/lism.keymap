@@ -107,7 +107,7 @@
 &trans  &kp LA(LG(V))  &pw3    &trans         &pw2                  &pw1    &kaggikakko  &trans         &trans                  &kp AT_SIGN  &kp TAB                  &kp HASH
             >;
 
-            sensor-bindings = <&inc_dec_kp LA(LG(RIGHT_ARROW)) LA(LG(RIGHT_ARROW))>;
+            sensor-bindings = <&encoder_msc SCRL_RIGHT SCRL_LEFT>;
         };
 
         layer_2 {
