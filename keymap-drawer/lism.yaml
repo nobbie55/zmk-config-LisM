@@ -25,10 +25,10 @@ layers:
   - X
   - C
   - V
-  - B
+  - {t: B, h: Device Layer}
   - N
   - M
-  - {t: ',', h: Mouse Layer}
+  - {t: ',', h: Scroll Layer}
   - .
   - /
   - {t: F5, h: LEFT CONTROL}
@@ -36,7 +36,7 @@ layers:
   - {t: LANG2, h: LEFT SHIFT}
   - '&mkp MB4'
   - {t: LANGUAGE 1, h: LEFT COMMAND}
-  - {t: BS, h: Device Layer}
+  - BS
   - {t: SPACE, h: Number Layer}
   - {t: ENTER, h: shortcut}
   - Sft+Gui+4
@@ -154,7 +154,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
@@ -165,7 +165,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - '&studio_unlock'
   - ''
   - ''
@@ -200,7 +200,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -243,7 +243,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
