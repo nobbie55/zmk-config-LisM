@@ -16,5 +16,3 @@
     input-processors = 
         <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;  
 };
-
-CONFIG_PAW3222_BEHAVIOR=n
