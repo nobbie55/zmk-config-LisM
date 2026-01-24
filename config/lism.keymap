@@ -125,10 +125,9 @@
             sensor-bindings = <&encoder_msc SCRL_RIGHT SCRL_LEFT>;
         };
 
-        layer_4 {
-            status = "reserved";
-            display-name = "Brank Layer";
-            bindings = <
+       layer_4 {
+            display-name = "Mouse Layer";
+            bindings = 
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &mkp MB1  &trans  &mkp MB2  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
@@ -137,9 +136,8 @@
         };
 
         layer_5 {
-            status = "reserved";
-            display-name = "scroll";
-            bindings = <
+            display-name = "Scroll Layer";
+            bindings = 
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
