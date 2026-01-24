@@ -15,8 +15,20 @@
     status = "okay";
 };
 
+&zip_temp_layer {
+    excluded-positions = <16 18>;
+};
+
 &central_listener {
     status = "okay";
     device = <&trackball_central>;
-    input-processors = <&zip_xy_scaler 2 1>;
+    input-processors = 
+        <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
+        <&zip_temp_layer 4 10000>;
+    scroller {
+        layers = <5>;
+        input-processors = 
+            <&zip_xy_to_scroll_mapper>,
+            <&zip_scroll_scaler 1 16>;
+    };
 };
