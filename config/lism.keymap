@@ -86,7 +86,7 @@
 &mt LEFT_CONTROL F5  &kp RG(V)  &mt LEFT_SHIFT LANG2  &mkp MB4  &mt LEFT_COMMAND LANGUAGE_1  &kp BACKSPACE    &lt 2 SPACE  &lt 1 ENTER  &kp LS(LG(N4))  &mkp MB3     &mt LEFT_ALT ESC  &to 2
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
 
         layer_1 {
