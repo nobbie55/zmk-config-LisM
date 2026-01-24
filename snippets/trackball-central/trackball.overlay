@@ -8,7 +8,6 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        scroll-layers = <5>;
     };
 };
 
@@ -16,14 +15,8 @@
     status = "okay";
 };
 
-&zip_temp_layer {
-    excluded-positions = <16 18>;
-};
-
 &central_listener {
     status = "okay";
     device = <&trackball_central>;
-    input-processors = 
-        <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
-        <&zip_temp_layer 4 10000>;
+    input-processors = <&zip_temp_layer 4 10000>;
 };
