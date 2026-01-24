@@ -7,31 +7,3 @@
 &transform_40keymap {
     col-offset = <5>;
 };
-
-/* ---------------------------------------------------------
-   ここから追加：トラックボールとオートマウス維持の設定
-   --------------------------------------------------------- */
-
-/* 1. オートマウスの維持設定 */
-/* レイヤー4(オートマウス)の時、16番(左クリック)と18番(右クリック)を押しても解除しない */
-&zip_temp_layer {
-    excluded-positions = <16 18>;
-};
-
-/* 2. トラックボール(PMW3610)のハードウェア定義 */
-&spi0 {
-    status = "okay";
-
-    trackball: trackball@0 {
-        compatible = "pixart,pmw3610";
-        status = "okay";
-        reg = <0>;
-        spi-max-frequency = <2000000>;
-
-        /* IRQピン：D6 (エンコーダーを使っていないのでここを使います) */
-        irq-gpios = <&xiao_d 6 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-
-        /* スクロールレイヤー：5番 */
-        scroll-layers = <5>;
-    };
-};
