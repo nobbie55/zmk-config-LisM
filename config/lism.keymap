@@ -1,9 +1,5 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 200
-
 #include <dt-bindings/zmk/mouse.h>
-#include <input/processors.dtsi>
-
-&mkp_input_listener { input-processors = <&zip_temp_layer 4 700>; };
 
 &mt {
     tapping-term-ms = <300>;
