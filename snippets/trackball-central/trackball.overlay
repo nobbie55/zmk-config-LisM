@@ -15,6 +15,10 @@
     status = "okay";
 };
 
+&zip_temp_layer {
+    excluded-positions = <16 18>;
+};
+
 &central_listener {
     status = "okay";
     device = <&trackball_central>;
@@ -28,3 +32,11 @@
             <&zip_scroll_scaler 1 16>;
     };
 };
+```
+
+---
+
+**`config/lism_right.conf`（末尾に追加）：**
+```
+# Pointing
+CONFIG_ZMK_POINTING=y
