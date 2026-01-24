@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: nuovotaka
-      url-base: https://github.com/nuovotaka
+    - name: sekigon-gonnoc
+      url-base: https://github.com/sekigon-gonnoc
     - name: caksoylar
       url-base: https://github.com/caksoylar
     - name: 4mplelab
@@ -11,10 +11,10 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: v0.3.0
+      revision: main
       import: app/west.yml
-    - name: zmk-driver-paw3222-alpha
-      remote: nuovotaka
+    - name: zmk-driver-paw3222
+      remote: sekigon-gonnoc
       revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
