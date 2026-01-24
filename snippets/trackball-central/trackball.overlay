@@ -1,6 +1,7 @@
+#include <input/processors.dtsi>
+
 &spi0 {
     status = "okay";
-
     trackball_central: trackball@1 {
         status = "okay";
         compatible = "pixart,paw3222";
@@ -10,20 +11,22 @@
     };
 };
 
-// ペリフェラル（split経由）のリスナーを有効化
 &peripheral_listener {
     status = "okay";
 };
 
-// セントラルのリスナーを有効化し、deviceを紐付け
+&zip_temp_layer {
+    excluded-positions = <16 18>;
+};
+
 &central_listener {
     status = "okay";
     device = <&trackball_central>;
     input-processors = 
-        <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>;
-
+        <&zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)>,
+        <&zip_temp_layer 4 10000>;
     scroller {
-        layers = <2>;
+        layers = <5>;
         input-processors = 
             <&zip_xy_to_scroll_mapper>,
             <&zip_scroll_scaler 1 16>;
