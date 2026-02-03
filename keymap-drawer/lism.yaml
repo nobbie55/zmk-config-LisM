@@ -122,7 +122,7 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RETURN
   - {type: held}
   - '&kakko'
   - {t: ▽, type: trans}
