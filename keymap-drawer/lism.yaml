@@ -42,7 +42,7 @@ layers:
   - Sft+Gui+4
   - '&mkp MB3'
   - {t: ESC, h: LEFT ALT}
-  - {t: Number Layer, h: toggle}
+  - ESC
   shortcut:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -74,7 +74,7 @@ layers:
   - Gui+A
   - Sft+Gui+→
   - ']'
-  - ESC
+  - {t: ▽, type: trans}
   - Alt+Gui+V
   - '&pw3'
   - {t: ▽, type: trans}
