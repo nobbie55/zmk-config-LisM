@@ -74,7 +74,7 @@ layers:
   - Gui+A
   - Sft+Gui+→
   - ']'
-  - {t: ▽, type: trans}
+  - ESC
   - Alt+Gui+V
   - '&pw3'
   - {t: ▽, type: trans}
