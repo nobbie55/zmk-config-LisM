@@ -83,7 +83,7 @@
 &kp Q                &kp W      &kp E                 &kp R     &kp T                                                      &kp Y        &kp U           &kp I        &kp O             &kp P
 &kp A                &kp S      &kp D                 &kp F     &kp G                                                      &kp H        &kp J           &kp K        &kp L             &kp MINUS
 &kp Z                &kp X      &kp C                 &kp V     &lt 3 B                                                    &kp N        &kp M           &lt 5 COMMA  &kp DOT           &kp SLASH
-&mt LEFT_CONTROL F5  &kp RG(V)  &mt LEFT_SHIFT LANG2  &mkp MB4  &mt LEFT_COMMAND LANGUAGE_1  &kp BACKSPACE    &lt 2 SPACE  &lt 1 ENTER  &kp LS(LG(N4))  &mkp MB3     &mt LEFT_ALT ESC  &to 2
+&mt LEFT_CONTROL F5  &kp RG(V)  &mt LEFT_SHIFT LANG2  &mkp MB4  &mt LEFT_COMMAND LANGUAGE_1  &kp BACKSPACE    &lt 2 SPACE  &lt 1 ENTER  &kp LS(LG(N4))  &mkp MB3     &mt LEFT_ALT ESC  &kp ESC
             >;
 
             sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
@@ -95,7 +95,7 @@
 &trans    &trans         &trans  &trans         &trans                                     &kp LG(W)      &kp RG(RA(LEFT_ARROW))  &kp RG(R)    &kp LA(LG(RIGHT_ARROW))  &trans
 &mkp MB5  &kp LC(LEFT)   &kp F3  &kp LC(RIGHT)  &kp LS(LG(NUMBER_4))                       &kp LG(LC(Q))  &kp LG(LEFT_BRACKET)    &kp LG(F)    &kp LG(RIGHT_BRACKET)    &kp LEFT_BRACKET
 &mkp MB4  &trans         &trans  &trans         &trans                                     &kp LG(Q)      &kp LG(Z)               &kp LG(A)    &kp LS(LG(RIGHT))        &kp RIGHT_BRACKET
-&kp ESC   &kp LA(LG(V))  &pw3    &trans         &pw2                  &pw1    &kaggikakko  &trans         &trans                  &kp AT_SIGN  &kp TAB                  &kp HASH
+&trans    &kp LA(LG(V))  &pw3    &trans         &pw2                  &pw1    &kaggikakko  &trans         &trans                  &kp AT_SIGN  &kp TAB                  &kp HASH
             >;
 
             sensor-bindings = <&inc_dec_kp LA(LG(RIGHT_ARROW)) LA(LG(LEFT))>;
