@@ -14,7 +14,7 @@
 &lt { quick-tap-ms = <300>; };
 
 / {
-    macros {
+    macros
         kaggikakko: kaggikakko {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -126,7 +126,6 @@
         };
 
         layer_4 {
-            status = "reserved";
             display-name = "Brank Layer";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans    &trans  &trans    &trans
@@ -137,7 +136,6 @@
         };
 
         layer_5 {
-            status = "reserved";
             display-name = "scroll";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
