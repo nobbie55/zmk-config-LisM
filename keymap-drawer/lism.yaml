@@ -36,7 +36,7 @@ layers:
   - {t: LANG2, h: LEFT SHIFT}
   - '&mkp MB4'
   - {t: LANGUAGE 1, h: LEFT COMMAND}
-  - {t: BS, h: Device Layer}
+  - BS
   - {t: SPACE, h: Number Layer}
   - {t: ENTER, h: shortcut}
   - Sft+Gui+4
@@ -128,7 +128,7 @@ layers:
   - {t: ▽, type: trans}
   - Sft+Ctl+TAB
   - '&'
-  - {t: Default Layer, h: toggle}
+  - F12
   Device Layer:
   - ''
   - ''
@@ -165,7 +165,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - '&studio_unlock'
   - ''
   - ''
