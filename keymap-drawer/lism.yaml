@@ -25,24 +25,24 @@ layers:
   - X
   - C
   - V
-  - {t: B, h: Device Layer}
+  - B
   - N
   - M
-  - {t: ',', h: Scroll Layer}
+  - {t: ',', h: Mouse Layer}
   - .
   - /
   - {t: F5, h: LEFT CONTROL}
-  - Gui+V
+  - {t: V, h: Gui+LEFT CONTROL}
   - {t: LANG2, h: LEFT SHIFT}
   - '&mkp MB4'
   - {t: LANGUAGE 1, h: LEFT COMMAND}
-  - BS
+  - {t: BS, h: Device Layer}
   - {t: SPACE, h: Number Layer}
   - {t: ENTER, h: shortcut}
   - Sft+Gui+4
   - '&mkp MB3'
   - {t: ESC, h: LEFT ALT}
-  - ESC
+  - Gui+TAB
   shortcut:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -122,7 +122,7 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RETURN
+  - {t: ▽, type: trans}
   - {type: held}
   - '&kakko'
   - {t: ▽, type: trans}
@@ -154,7 +154,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
@@ -165,7 +165,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - '&studio_unlock'
   - ''
   - ''
@@ -200,7 +200,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -243,7 +243,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
