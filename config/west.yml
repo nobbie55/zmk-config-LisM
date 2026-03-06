@@ -18,7 +18,7 @@ manifest:
       revision: main
     - name: zmk-rgbled-widget
       remote: caksoylar
-      revision: main
+      revision: a3510c9de46de8b42c803286f4978466c6ea3916
     - name: zmk-feature-charge-indicator
       remote: 4mplelab
       revision: main
