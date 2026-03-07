@@ -32,7 +32,7 @@ layers:
   - {t: PERIOD, h: Device Layer}
   - /
   - {t: F5, h: LEFT ALT}
-  - {t: V, h: Gui+LEFT CONTROL}
+  - {t: Gui+V, h: LEFT CONTROL}
   - {t: LANG2, h: LEFT SHIFT}
   - '&mkp MB4'
   - {t: LANGUAGE 1, h: LEFT COMMAND}
