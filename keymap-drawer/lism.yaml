@@ -28,7 +28,7 @@ layers:
   - B
   - N
   - M
-  - {t: ',', h: Mouse Layer}
+  - {t: ',', h: Scroll Layer}
   - {t: PERIOD, h: Device Layer}
   - /
   - {t: F5, h: LEFT ALT}
@@ -200,7 +200,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -243,7 +243,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
