@@ -124,7 +124,7 @@
 &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW    &trans     &trans    &trans  &kakko        &trans        &kp RS(RC(TAB))  &kp AMPERSAND  &kp F12
             >;
 
-            sensor-bindings = <&encoder_kp LG(DOWN_ARROW) LG(UP_ARROW)>;
+            sensor-bindings = <&inc_dec_kp LC(RIGHT) LC(LEFT)>;
         };
 
         layer_3 {
