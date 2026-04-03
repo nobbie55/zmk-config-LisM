@@ -102,7 +102,7 @@
 &mt LEFT_ALT F5  &mt LEFT_CONTROL RG(V)  &mt LEFT_SHIFT LANG2  &mt LEFT_COMMAND LANGUAGE_1  &kp BACKSPACE    &lt 2 SPACE  &lt 1 ENTER  &kp LS(LG(N4))  &mkp MB3     &mt LEFT_ALT ESC  &kp LG(TAB)
             >;
 
-            sensor-bindings = <&encoder_msc SCRL_DOWN SCRL_UP>;
+            sensor-bindings = <&encoder_msc SCRL_UP SCRL_DOWN>;
         };
 
         layer_1 {
@@ -126,7 +126,7 @@
 &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW    &trans     &trans    &trans  &kakko        &trans        &kp RS(RC(TAB))  &kp AMPERSAND  &kp F12
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(RIGHT) LC(LEFT)>;
+            sensor-bindings = <&inc_dec_kp LC(LEFT) LC(RIGHT)>;
         };
 
         layer_3 {
@@ -170,7 +170,7 @@
 &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
 
-            sensor-bindings = <&encoder_kp TAB LS(TAB)>;
+            sensor-bindings = <&encoder_kp LS(TAB) TAB>;
         };
     };
 };
