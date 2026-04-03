@@ -24,7 +24,7 @@ layers:
   - Z
   - X
   - C
-  - {t: V, h: App Switcher}
+  - {t: V, h: '&app_switcher_hold'}
   - B
   - N
   - M
@@ -276,7 +276,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
