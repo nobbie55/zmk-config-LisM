@@ -41,7 +41,7 @@ layers:
   - Sft+Gui+4
   - '&mkp MB3'
   - {t: ESC, h: LEFT ALT}
-  - Gui+TAB
+  - Gui+F18
   shortcut:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
