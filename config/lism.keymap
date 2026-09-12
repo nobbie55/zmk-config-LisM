@@ -14,6 +14,34 @@
 &lt { quick-tap-ms = <300>; };
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        mouse_left_combo {
+            timeout-ms = <45>;
+            key-positions = <16 17>;
+            layers = <0 4>;
+            bindings = <&mkp MB1>;
+            slow-release;
+        };
+
+        mouse_right_combo {
+            timeout-ms = <45>;
+            key-positions = <17 18>;
+            layers = <0 4>;
+            bindings = <&mkp MB2>;
+            slow-release;
+        };
+
+        volume_encoder_combo {
+            timeout-ms = <60>;
+            key-positions = <35 36>;
+            layers = <0 4>;
+            bindings = <&mo 7>;
+            slow-release;
+        };
+    };
+
     macros {
         kaggikakko: kaggikakko {
             compatible = "zmk,behavior-macro";
@@ -176,6 +204,18 @@
             >;
 
             sensor-bindings = <&encoder_kp LS(TAB) TAB>;
+        };
+
+        layer_7 {
+            display-name = "Volume";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
