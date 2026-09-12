@@ -38,10 +38,9 @@ layers:
   - BS
   - {t: SPACE, h: Number Layer}
   - {t: ENTER, h: shortcut}
-  - Sft+Gui+4
   - '&mkp MB3'
   - {t: ESC, h: LEFT ALT}
-  - Gui+F18
+  - {t: F18, h: LEFT COMMAND}
   shortcut:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -80,7 +79,6 @@ layers:
   - '&pw1'
   - '&kaggikakko'
   - {type: held}
-  - {t: ▽, type: trans}
   - '@'
   - TAB
   - '#'
@@ -122,7 +120,6 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - '&kakko'
-  - {t: ▽, type: trans}
   - Sft+Ctl+TAB
   - '&'
   - F12
@@ -166,7 +163,6 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - Boot
   Mouse Layer:
   - {t: ▽, type: trans}
@@ -188,7 +184,6 @@ layers:
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - '&mkp MB2'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -251,9 +246,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   App Switcher:
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
