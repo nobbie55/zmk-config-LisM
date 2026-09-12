@@ -2,7 +2,18 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-自作キーボード LisMのファームウェアです。
+自作キーボード LisM のファームウェアです。
+
+現在の標準仕様である、垂直ロータリーエンコーダー版のファームウェアです。
+押せないエンコーダー用の旧 `MB4` と、旧 `Shift + Command + 4`（スクリーンショット）キーを省いた40キー構成です。右端キーは、短押しでTypeless用の `F18`、長押しで `Command` として動作します。
+
+## キーマップ
+
+![LisM keymap](keymap-drawer/lism.svg)
+
+### エンコーダー操作
+
+レイヤーに応じて、縦スクロール、デスクトップ切り替え、横スクロールとして動作します。`V` を押しながら回すと、アプリ切り替えができます。
 
 ## 生成されるファームウェア一覧
 

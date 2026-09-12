@@ -24,7 +24,7 @@ layers:
   - Z
   - X
   - C
-  - V
+  - {t: V, h: '&app_switcher_hold'}
   - B
   - N
   - M
@@ -34,15 +34,13 @@ layers:
   - {t: F5, h: LEFT ALT}
   - {t: Gui+V, h: LEFT CONTROL}
   - {t: LANG2, h: LEFT SHIFT}
-  - '&mkp MB4'
   - {t: LANGUAGE 1, h: LEFT COMMAND}
   - BS
   - {t: SPACE, h: Number Layer}
   - {t: ENTER, h: shortcut}
-  - Sft+Gui+4
   - '&mkp MB3'
   - {t: ESC, h: LEFT ALT}
-  - Gui+TAB
+  - {t: F18, h: LEFT COMMAND}
   shortcut:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -77,12 +75,10 @@ layers:
   - {t: ▽, type: trans}
   - Alt+Gui+V
   - '&pw3'
-  - {t: ▽, type: trans}
   - '&pw2'
   - '&pw1'
   - '&kaggikakko'
   - {type: held}
-  - {t: ▽, type: trans}
   - '@'
   - TAB
   - '#'
@@ -122,10 +118,8 @@ layers:
   - RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - '&kakko'
-  - {t: ▽, type: trans}
   - Sft+Ctl+TAB
   - '&'
   - F12
@@ -165,9 +159,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
   - '&studio_unlock'
-  - ''
   - ''
   - ''
   - ''
@@ -192,8 +184,6 @@ layers:
   - '&mkp MB1'
   - {t: ▽, type: trans}
   - '&mkp MB2'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -244,6 +234,45 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  App Switcher:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
